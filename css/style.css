@@ -129,10 +129,10 @@ nav ul li a:hover{
         top: 6rem;
         left: -100%;
         width: 100%;
-        height: calc(100vh - 4rem);
-        height: calc(var(--vh, 1vh) * 100 - 4rem);
+        height: calc(100vh - 6rem);
+        height: calc(var(--vh, 1vh) * 100 - 6rem);
         background-color: white;
-        transition: top .90s ease;
+        transition: top .80s ease;
     }
 
     nav.active{
@@ -142,7 +142,7 @@ nav ul li a:hover{
     nav ul {
         flex-direction: column;
         text-align: center;
-        margin-top: 15rem;
+        margin-top: 5rem;
     }
 
     nav ul li {
