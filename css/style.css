@@ -166,14 +166,8 @@ nav ul li a:hover{
 
     }
 
-    .project .card-title {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 3rem;
-    }
-
     .project .details {
-        display: flex;
+        display: flex; 
         justify-content: space-between;
         margin-top: 1rem;
     }
