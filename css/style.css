@@ -142,7 +142,7 @@ nav ul li a:hover{
     nav ul {
         flex-direction: column;
         text-align: center;
-        margin-top: 5rem;
+        margin-top: 20rem;
     }
 
     nav ul li {
@@ -175,13 +175,13 @@ nav ul li a:hover{
     .project .card-info {
         display: flex;
         justify-content: space-between;
-        margin-top: 7rem;
+        margin-top: 5rem;
 
     }
 
     .project .descritive {
         margin-top: 3rem;
-        margin-bottom: 7rem;
+        margin-bottom: 5rem;
     }
 
     nav ul li a{
