@@ -126,11 +126,11 @@ nav ul li a:hover{
 @media screen and (max-width: 768px) {
     nav{
         position: fixed;
-        top: 2rem;
+        top: 6rem;
         left: -100%;
         width: 100%;
         height: calc(100vh - 6rem);
-        height: calc(var(--vh, 1vh) * 100 - 6rem);
+        height: calc(var(--vh, 1vh) * 100 - 5rem);
         background-color: white;
         transition: top .90s ease;
     }
@@ -142,7 +142,7 @@ nav ul li a:hover{
     nav ul {
         flex-direction: column;
         text-align: center;
-        margin-top: 20rem;
+        margin-top: 15rem;
     }
 
     nav ul li {
