@@ -123,14 +123,14 @@ nav ul li a:hover{
     color: white;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
     nav{
         position: fixed;
         top: 6rem;
         left: -100%;
         width: 100%;
-        height: calc(100vh - 6rem);
-        height: calc(var(--vh, 1vh) * 100 - 6rem);
+        height: calc(100vh - 5rem);
+        height: calc(var(--vh, 1vh) * 100 - 5rem);
         background-color: white;
         transition: top .90s ease;
     }
